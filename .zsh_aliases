@@ -12,3 +12,4 @@ alias lsgs="eza -1 -G --hyperlink --icons=always --group-directories-first -a -s
 alias lss="eza -1 -l --hyperlink --icons=always --group-directories-first -a -s=size" # list files, sort by size
 alias ssort="du -h --max-depth=1 | sort -h"
 alias ssortr="du -h --max-depth=1 | sort -hr"
+alias fetch="fastfetch"
