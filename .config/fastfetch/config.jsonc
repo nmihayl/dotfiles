@@ -13,12 +13,10 @@
     "shell",
     "display",
     "de",
-    "wm",
     "terminal",
     "terminalfont",
     "cpu",
     "gpu",
     "memory",
-    "break",
   ]
 }
