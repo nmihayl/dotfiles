@@ -1,0 +1,14 @@
+alias apv="mpv --no-video"
+alias c="yazi"
+alias cd-log="cd /mnt/seagate2tb/Backlog"
+alias clean-folders="find . -type d -empty -delete"
+alias cy="y"
+alias ipv4="curl -s https://checkip.amazonaws.com"
+alias l="eza -1 -G --hyperlink --icons=always --group-directories-first -a" # grid files 
+alias ld="eza -1 -l --hyperlink --icons=always -a -D" # list directories
+alias ldg="eza -1 -G --hyperlink --icons=always -a -D" # grid directories
+alias ls="eza -1 -l --hyperlink --icons=always --group-directories-first -a" # list files
+alias lsgs="eza -1 -G --hyperlink --icons=always --group-directories-first -a -s=size" # grid files, sort by size
+alias lss="eza -1 -l --hyperlink --icons=always --group-directories-first -a -s=size" # list files, sort by size
+alias ssort="du -h --max-depth=1 | sort -h"
+alias ssortr="du -h --max-depth=1 | sort -hr"
