@@ -10,14 +10,6 @@ alias ls="eza -1 -l --hyperlink --icons=always --group-directories-first -a"
 alias lsgs="eza -1 -G --hyperlink --icons=always --group-directories-first -a -s=size"
 alias lss="eza -1 -l --hyperlink --icons=always --group-directories-first -a -s=size"
 
-# git
-alias gs="git status"
-alias gc="git commit"
-alias gps="git push"
-alias gpl="git pull"
-alias ga="git add"
-alias gr="git rm"
-
 # mpv
 alias apv="mpv --no-video"
 
