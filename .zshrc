@@ -6,7 +6,10 @@ unsetopt autocd beep extendedglob nomatch notify
 bindkey -e
 zstyle :compinstall filename '/home/deck/.zshrc'
 autoload -Uz compinit
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 compinit
+export EDITOR=nvim
+export BROWSER=/usr/bin/firefox
 
 # zsh keybind correction
 bindkey "^[[1;5C" forward-word
@@ -43,3 +46,10 @@ function y() {
     fi
     rm -f -- "$tmp"
 }
+
+# cleanup
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+export GTK2_RC_FILES="$HOME/.config/gtk-2.0/gtkrc-2.0"
+
